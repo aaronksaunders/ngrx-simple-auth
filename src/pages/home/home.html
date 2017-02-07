@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>NgRX/Ionic2 App</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <h4> LOGGED IN</h4>
+
+  <ion-item>
+    <div>Current User...</div>
+    <div style="font-size: smaller">
+      <pre>{{currentUser | json}}</pre>
+    </div>
+  </ion-item>
+  <div>
+    <button ion-button full (click)="doLogout()">LOGOUT</button>
+  </div>
+</ion-content>
