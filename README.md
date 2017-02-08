@@ -1,6 +1,8 @@
 # ngrx-simple-auth
 Ionic 2 ngrx/store ngrx/effects ngrx/store-dev-tools authentication with token example - Ionicframework
 
+![https://github.com/aaronksaunders/ngrx-simple-auth/blob/master/ngrx-teaser.gif](https://github.com/aaronksaunders/ngrx-simple-auth/blob/master/ngrx-teaser.gif)
+
 Install the core ngrx functionality with the store
 ```
 npm install @ngrx/core @ngrx/store --save
